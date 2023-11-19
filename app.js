@@ -115,7 +115,7 @@ app.put("/edit/:id", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://mr462159:zhVEA6ulFYjsvHev@cluster0.lwc7f9d.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://xxxxxxx.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     app.listen(port, () => {
